@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    height: 6940px;
+}
+
+#icon {
+    /* margin-right: 20px; */
+}
+
+.hedding {
+    display: flex;
+    padding: 50px 250px;
+
+}
+
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+.list {
+    /* margin:20px 200px; */
+    /* background-color: #424244;
+    margin-top: -900px; */
+}
+
+.monile-menu {
+    margin-top: 0px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424244;
+}
+
+.home {
+    color: #FF5400;
+}
+
+#trevel {
+    color: #FF5400;
+}
+
+.banner {
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+    height: 500px;
+    margin-left: 400px;
+}
+
+.banner-content {
+    text-align: center;
+
+}
+
+#banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.tik-kora {
+    display: flex;
+    text-align: center;
+    margin-top: 280px;
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    /* background: #FFF; */
+    gap: 20px;
+
+}
+
+.btn-primary {
+    cursor: pointer;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: 0;
+
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+.Popular-Tours {
+    display: flex;
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.Popular-content {
+    width: 700px;
+    height: 700px;
+    /* border: 2px solid tomato; */
+    margin-left: 300px;
+}
+
+.our-popukar {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400
+}
+
+.Popular-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.ditels {
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+
+#read {}
+
+#dolor {
+    margin-bottom: 20px;
+}
+
+#amet {
+    margin-bottom: 25px;
+}
+
+.gap-deo {
+    margin-bottom: 25px;
+}
+
+.destination {}
+
+#desti {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#sit {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.des-content {
+    text-align: center;
+}
+
+.tuore-place-img {
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.malaindo {
+    display: flex;
+}
+
+#maldi {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 300px;
+    /* margin-top: 20px; */
+}
+
+#indo {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    /* margin-right: 250px; */
+    margin-left: 500px;
+}
+
+#sri {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+#no {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+#ka {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+#ban {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+#dar {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 350px;
+}
+
+.choose-us {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#why {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#dis {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+#hotel-size {
+    height: 90px;
+    width: 80px;
+
+
+}
+
+.hotel-world {
+    display: flex;
+    margin-top: 50px;
+}
+
+.hotel {
+    border: 2px solid tomato;
+    margin-left: 150px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    padding: 30px;
+}
+
+.world {
+    border: 2px solid tomato;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    padding: 30px;
+}
+
+.best-price {
+    border: 2px solid tomato;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    padding: 30px;
+    align-items: center;
+    margin-left: 460px;
+    margin-top: 25px;
+}
+
+.save-up {
+    display: flex;
+    
+    border: 2px solid tomato;
+    
+}
+
+.form-nai {
+    display: block;
+    align-items: center;
+    margin-left: 100px;
+    width: 300px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    gap: 25px;
+}
+
+.form-puron {
+    display: block;
+
+    margin-top: 0px;
+
+}
+
+.tik-korte-cai {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sub {
+  margin-left: 90px;
+}
+
+
+@media screen and (max-width:600px) {
+    .menu-btn {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .hedding {
+        display: flex;
+        padding: 0;
+        display: grid;
+    }
+
+    #icon>#ex {
+        display: flex;
+    }
+
+    nav,
+    .tik-kora,
+    ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .Popular-Tours {
+        flex-direction: column;
+    }
+
+    .Popular-content {
+        width: 250px;
+        height: 350px;
+        margin-left: 10px;
+    }
+
+    .popular-img {
+        margin-top: 400px;
+        width: 20px;
+        height: 700px;
+        flex-shrink: 0;
+    }
+
+    .banner>.tik-kora {
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-left: 0px;
+    }
+
+    .banner {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        margin-left: 0px;
+
+    }
+
+    .tik-kora {
+        margin-top: 0px;
+        height: 50px;
+    }
+
+
+    .list {
+
+        /* width: 100%; */
+        /* height: 100vh; */
+        justify-content: center;
+        /* background-color: #dbd3cf; */
+        gap: 5px;
+        display: none;
+    }
+
+    .list li {
+        margin: 30px auto;
+    }
+
+    .tuore-place-img,
+    .malaindo {
+        flex-direction: column;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 20px;
+    }
+
+    .malaindo {
+        flex-direction: column;
+    }
+
+    #indo {
+        margin-right: 500px;
+        padding-right: 200px;
+    }
+
+    .choose-us {
+        width: 375px;
+        height: 150px;
+        margin-top: 150px;
+    }
+
+    .hotel-world,
+    {
+    flex-direction: column;
+    max-width: ;
+    margin-top: 0px;
+}
+
+.hotel {
+    width: 300px;
+    margin-left: 0px;
+}
+
+.best-price {
+    margin-left: 0px;
+    width: 300px;
+}
+
+.hotel-size {
+    margin-left: 0px;
+    width: 300px;
+}
+
+.world {
+    width: 350px;
+}
+
+.save-up{
+    width: 338px;
+    height: 300px;
+}
+
+
+
+
+}
